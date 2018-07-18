@@ -1,0 +1,14 @@
+name: cloudsat
+channels:
+   - conda-forge
+dependencies:
+   - python=3.6
+   - ipython
+   - jupyter
+   - numpy
+   - matplotlib
+   - pandas
+   - cartopy
+   - xarray
+   - rasterio
+   - h5py
