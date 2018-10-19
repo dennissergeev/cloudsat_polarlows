@@ -43,7 +43,7 @@ def get_geodata(h5name,
 
 def read_data(h5name, data_field='Radar_Reflectivity',
               limits=None, fillmask=False):
-    """Read CloudSat data from a HDF5 file and retrun a masked numpy array."""
+    """Read CloudSat data from a HDF5 file and return a masked numpy array."""
     # TODO: return units f['2B-CWC-RO']['Swath Attributes']
     #                         ['RO_liq_water_content.units'][0]
     with h5py.File(h5name, 'r') as f:
