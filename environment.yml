@@ -1,15 +1,13 @@
 name: cloudsat
 channels:
-   - conda-forge
+  - conda-forge
+  - defaults
 dependencies:
-   - python=3.6
-   - ipython
-   - jupyter
-   - numba
-   - numpy
-   - matplotlib
-   - pandas
-   - cartopy
-   - xarray
-   - rasterio
-   - h5py
+  - cartopy=0.18.0
+  - h5py=3.1.0
+  - ipykernel=5.4.2
+  - matplotlib-base=3.3.3
+  - numba=0.52.0
+  - numpy=1.19.4
+  - python=3.8
+  - pip=20.3.3
